@@ -11,7 +11,7 @@ For more information, please acess the [project page](https://www.verlab.dcc.ufm
 ### Authors ###
 
 * Guilherme Augusto Potje - PhD. Student - UFMG - guipotje@dcc.ufmg.br
-* Gabriel Dias Resende - Undergraduate Student (Former member of VeRlab) - UFMG - gabrieldr@ufmg.br
+* Gabriel Dias Resende - Undergraduate Student (Former member of VeRlab) - UFMG - gabriel.diasresende@gmail.com
 * Erickson Rangel do Nascimento - Advisor - UFMG - erickson@dcc.ufmg.br
 * Mario Fernando Montenegro Campos - Advisor - UFMG - mario@dcc.ufmg.br
 
@@ -45,4 +45,25 @@ http://www.verlab.dcc.ufmg.br
  5. Call "./VerlabSFM [path_to_sfm_params] 1" for image registration and "./VerlabSFM [path_to_sfm_params] 2" for camera pose and sparse structrure estimation.
 
 Obs: For fisheye distorted images (like ones taken with a GoPro) it is strongly recommended to calibrate the images and remove the distortion before using this pipeline on them.
+
+---
+
+## Citation ##
+
+If you are using it to academic purpose, please cite: 
+
+Potje, G., Resende, G., Campos, M., & Nascimento, E. R. (2017). __Towards an efficient 3D model estimation methodology for aerial and ground images__. Machine Vision and Applications, 28(8), 937-952.
+
+### Bibtex entry ###
+
+> @article{Potje2017,  
+> title={Towards an efficient 3D model estimation methodology for aerial and ground images},  
+> author={Potje, Guilherme and Resende, Gabriel and Campos, Mario and Nascimento, Erickson R},  
+> journal={Machine Vision and Applications},  
+> pages={1--16},  
+> year={2017},  
+> publisher={Springer}  
+> doi = {10.1007/s00138-017-0875-x},  
+> url = {https://link.springer.com/article/10.1007/s00138-017-0875-x}  
+> }  
 
